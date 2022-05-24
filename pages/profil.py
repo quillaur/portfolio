@@ -1,10 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
 from PIL import Image
 from datetime import datetime
-import pandas as pd
 
 
 def year_difference(start: str, end: str = "TODAY"):
