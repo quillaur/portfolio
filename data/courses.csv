@@ -1,22 +1,47 @@
-Activity;Concept;Course
-Quizz game;Loop;Python
-Quizz game;Conditions;Python
-Quizz game;Dictionary;Python
-Quizz game;Function;Python
-Quizz game;Module;Python
-Quizz game;String;Python
-Rock / Paper / Scisors;Loop;Python
-Rock / Paper / Scisors;Conditions;Python
-Rock / Paper / Scisors;Dictionary;Python
-Rock / Paper / Scisors;Function;Python
-Rock / Paper / Scisors;Module;Python
-Rock / Paper / Scisors;String;Python
-Rock / Paper / Scisors;List;Python
-Rock / Paper / Scisors;Tuple;Python
-Guess the number;Loop;Python
-Guess the number;Conditions;Python
-Guess the number;Module;Python
-Guess the number;String;Python
-Guess the number;List;Python
-Guess the number;Range;Python
-Guess the number;Binary Search;Dynamic Programming
+Activity,Concept,Course
+Quizz game,Loop,Python
+Quizz game,Conditions,Python
+Quizz game,Dictionary,Python
+Quizz game,Function,Python
+Quizz game,Module,Python
+Quizz game,String,Python
+Rock / Paper / Scisors,Loop,Python
+Rock / Paper / Scisors,Conditions,Python
+Rock / Paper / Scisors,Dictionary,Python
+Rock / Paper / Scisors,Function,Python
+Rock / Paper / Scisors,Module,Python
+Rock / Paper / Scisors,String,Python
+Rock / Paper / Scisors,List,Python
+Rock / Paper / Scisors,Tuple,Python
+Guess the number,Loop,Python
+Guess the number,Conditions,Python
+Guess the number,Module,Python
+Guess the number,String,Python
+Guess the number,List,Python
+Guess the number,Range,Python
+Currency exchange,Database,Python
+Currency exchange,Module,Python
+Currency exchange,Function,Python
+Currency exchange,API,Python
+Currency exchange,String,Python
+Currency exchange,List,Python
+Currency exchange,Loop,Python
+Currency exchange,Conditions,Python
+Weather prediction,API,Python
+Weather prediction,String,Python
+Weather prediction,File,Python
+Weather prediction,JSON,Python
+Weather prediction,Conditions,Python
+Weather prediction,Module,Python
+Mendel genetics,Unitary tests,Python
+Mendel genetics,List,Python
+Mendel genetics,Conditions,Python
+Mendel genetics,String,Python
+Mendel genetics,Function,Python
+Mendel genetics,Loop,Python
+Password manager,File,Python
+Password manager,Module,Python
+Password manager,Function,Python
+Password manager,Loop,Python
+Password manager,Conditions,Python
+Guess the number,Binary search,Dynamic programming
