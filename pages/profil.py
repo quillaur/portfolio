@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from datetime import datetime
 
+from utilities import pretty_bar_plot
+
 
 def year_difference(start: str, end: str = "TODAY"):
     year, month, day = [int(x) for x in start.split()]
@@ -15,36 +17,6 @@ def year_difference(start: str, end: str = "TODAY"):
         end = datetime(year, month, day)
     
     return end.year - start.year
-
-def pretty_bar_plot(x_values: list, y_values: list, x_label: str) -> plt.figure:
-    # https://scentellegher.github.io/visualization/2018/10/10/beautiful-bar-plots-matplotlib.html
-
-    # plt.rcParams['font.family'] = 'sans-serif'
-    plt.rcParams['font.sans-serif'] = 'Helvetica'
-    plt.rcParams['axes.edgecolor']='#333F4B'
-    plt.rcParams['axes.linewidth']=0.8
-    plt.rcParams['xtick.color']='#007acc'
-    plt.rcParams['ytick.color']='#007acc'
-
-    fig, ax = plt.subplots(figsize=(3, 3))
-    fig.patch.set_alpha(0.0)
-    plt.hlines(y=y_values, xmin=0, xmax=x_values, color='#007acc', alpha=0.2, linewidth=5)
-    plt.plot(x_values, y_values, "o", markersize=5, color='#007acc', alpha=0.6)
-
-    # set labels style
-    ax.set_xlabel(x_label, fontsize=15, fontweight='bold', color = '#007acc')
-    ax.set_ylabel('')
-
-    # change the style of the axis spines
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_bounds((0, len(y_values)))
-    # add some space between the axis and the plot
-    ax.spines['left'].set_position(('outward', 8))
-    ax.spines['bottom'].set_position(('outward', 5))
-    ax.patch.set_alpha(0.0)
-
-    return fig
 
 def app():
 
@@ -83,7 +55,7 @@ def app():
         experience = {k: v for k, v in sorted(experience.items(), key=lambda item: item[1], reverse=False)}
         years = [v for k, v in experience.items()]
         topics = [k for k, v in experience.items()]
-        fig = pretty_bar_plot(years, topics, "Years of Practice")
+        fig = pretty_bar_plot(years, topics, "Years of Practice", (3,3), 15, 8)
         st.pyplot(fig)
 
     with col2:

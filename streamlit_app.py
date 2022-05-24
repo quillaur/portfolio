@@ -24,8 +24,8 @@ age = today.year - birth.year
 st.sidebar.header("Aurélien Quillet ~ Ph.D")
 st.sidebar.info(f"""
             * {age} years old
-            * live in Rouen, France
-            * work as Data Scientist (Remote Freelance)
+            * Rouen, France
+            * Data Scientist (remote freelance)
         """)
 
 # Create an instance of the app 
