@@ -32,48 +32,49 @@ def app():
         concepts = df["Concept"].unique()
         wanted_concepts = st.multiselect("Concept(s):", concepts, default=concepts)
 
-        df = df[df["Concept"].isin(wanted_concepts)]
+        if wanted_concepts:
+            df_filtered_concepts = df[df["Concept"].isin(wanted_concepts)]
 
-        selected_activities = df["Activity"].unique()
+            selected_activities = df_filtered_concepts["Activity"].unique()
 
-        matched_concepts = defaultdict(list)
-        for activity in selected_activities:
-            # matched_concepts["Activity"].append(activity)
+            matched_concepts = defaultdict(list)
+            for activity in selected_activities:
+                # matched_concepts["Activity"].append(activity)
 
-            tmp_df = df[df["Activity"] == activity]
+                tmp_df = df[df["Activity"] == activity]
 
-            total = 0
-            for concept in concepts:
-                if any(tmp_df["Concept"] == concept):
-                    matched_concepts[concept].append("Yes")
-                    total += 1
-                else:
-                    matched_concepts[concept].append("No")
+                total = 0
+                for concept in concepts:
+                    if any(tmp_df["Concept"] == concept):
+                        matched_concepts[concept].append("Yes")
+                        total += 1
+                    else:
+                        matched_concepts[concept].append("No")
+                
+                matched_concepts["Total"].append(total)
+
+            def bg_colour_col (col):
+                colour = '#ffff00'
+                return ['background-color: %s' % colour if x == "Yes" else "" for i,x in col.iteritems()]
             
-            matched_concepts["Total"].append(total)
+            st.dataframe(pd.DataFrame(matched_concepts, index=selected_activities).sort_values(by=["Total"], ascending=False).style.apply(bg_colour_col))
 
-        def bg_colour_col (col):
-            colour = '#ffff00'
-            return ['background-color: %s' % colour if x == "Yes" else "" for i,x in col.iteritems()]
-        
-        st.dataframe(pd.DataFrame(matched_concepts, index=selected_activities).sort_values(by=["Total"], ascending=False).style.apply(bg_colour_col))
+            st.subheader(f"""
+                        Links to the {course} activities :
+                    """)
+            github_repo_url = "https://github.com/quillaur/apprendre_python/"
 
-        st.subheader(f"""
-                    Link to the {course} activities :
-                """)
-        github_repo_url = "https://github.com/quillaur/apprendre_python/"
+            links = {
+                "Quizz game": "tree/main/quizz",
+                "Guess the number": "tree/main/devine_le_chiffre",
+                "Rock / Paper / Scisors": "blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py",
+                "Mendel genetics": "tree/main/genetique_mendel",
+                "Password manager": "tree/main/cryptographie",
+                "Weather prediction": "blob/main/weather/weather_api.py",
+                "Currency exchange": "tree/main/taux_echange_devise"
+            }
 
-        links = {
-            "Quizz game": "tree/main/quizz",
-            "Guess the number": "tree/main/devine_le_chiffre",
-            "Rock / Paper / Scisors": "blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py",
-            "Mendel genetics": "tree/main/genetique_mendel",
-            "Password manager": "tree/main/cryptographie",
-            "Weather prediction": "blob/main/weather/weather_api.py",
-            "Currency exchange": "tree/main/taux_echange_devise"
-        }
-
-        msg = ""
-        for activity in selected_activities:
-            msg += f"* [{activity}]({github_repo_url}{links[activity]})\n"
-        st.markdown(msg, unsafe_allow_html=True)
+            msg = ""
+            for activity in selected_activities:
+                msg += f"* [{activity}]({github_repo_url}{links[activity]})\n"
+            st.markdown(msg, unsafe_allow_html=True)
