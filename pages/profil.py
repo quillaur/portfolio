@@ -91,11 +91,4 @@ def app():
             autotext.set_color('white')
         st.pyplot(fig)
     
-    # with col3:
-    #     # 04 + 05/2022
-    #     prices = [20]*8 + [30] + [40]*40 + [60]*15 + [75]*16 + [100]*3
-    #     field = ["Mentor"]*9 + ["Mentor"]*20 + ["Evuator"]*20 + ["Teacher"]*15 + ["Data scientist"]*16 + ["Data scientist"]*3
-    #     df = pd.DataFrame({"Price / hour": prices, "Job": field})
-    #     fig = plt.figure(figsize=(6, 3))
-    #     sns.boxplot(x = "Job", y = "Price / hour", data=df)
-    #     st.pyplot(fig)
+    ### Timeline TODO ####

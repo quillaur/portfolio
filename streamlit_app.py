@@ -38,6 +38,21 @@ app.add_page("Dashboards", dashboards.app)
 
 app.run()
 
+st.sidebar.header("My certifications:")
+st.sidebar.markdown("""
+                        * [Python3](https://www.codingame.com/certification/Sf2S8q_-8pJiUwSkj8zg3w)
+                        * [Algorithms](https://www.codingame.com/certification/W6KRm4XUjK51H62iW1E_mA)
+                        * [Artificial Intelligence](https://www.codingame.com/certification/sgaipSY6PF5QJrpbG5isfA)
+                    """, unsafe_allow_html=True)
+# st.sidebar.markdown("""
+#                     <div style="background-color: #f5f29a;" >
+#                         <ul>
+#                         <li><a href="https://www.codingame.com/certification/Sf2S8q_-8pJiUwSkj8zg3w">Python3</a></li>
+#                         <li><a href="https://www.codingame.com/certification/W6KRm4XUjK51H62iW1E_mA">Algorithms</a></li>
+#                         <li><a href="https://www.codingame.com/certification/sgaipSY6PF5QJrpbG5isfA">Artificial Intelligence</a></li>
+#                     </div>
+#                     """, unsafe_allow_html=True)
+
 st.sidebar.header("You can follow me there:")
 st.sidebar.markdown("""
                         * [Codingame](https://www.codingame.com/profile/095afbf7d889e76260103e94e4b29a5c0681142)
