@@ -1,55 +1,64 @@
 Activity,Concept,Course,Link
-Quizz game,Loop,Python,tree/main/quizz
-Quizz game,Conditions,Python,tree/main/quizz
-Quizz game,Dictionary,Python,tree/main/quizz
-Quizz game,Function,Python,tree/main/quizz
-Quizz game,Module,Python,tree/main/quizz
-Quizz game,String,Python,tree/main/quizz
-Rock / Paper / Scisors,Loop,Python,blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py
-Rock / Paper / Scisors,Conditions,Python,blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py
-Rock / Paper / Scisors,Dictionary,Python,blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py
-Rock / Paper / Scisors,Function,Python,blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py
-Rock / Paper / Scisors,Module,Python,blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py
-Rock / Paper / Scisors,String,Python,blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py
-Rock / Paper / Scisors,List,Python,blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py
-Rock / Paper / Scisors,Tuple,Python,blob/main/pierre_ciseaux_papier/pierre_ciseaux_papier.py
-Guess the number,Loop,Python,tree/main/devine_le_chiffre
-Guess the number,Conditions,Python,tree/main/devine_le_chiffre
-Guess the number,Module,Python,tree/main/devine_le_chiffre
-Guess the number,String,Python,tree/main/devine_le_chiffre
-Guess the number,List,Python,tree/main/devine_le_chiffre
-Guess the number,Range,Python,tree/main/devine_le_chiffre
-Currency exchange,Database,Python,tree/main/taux_echange_devise
-Currency exchange,Module,Python,tree/main/taux_echange_devise
-Currency exchange,Function,Python,tree/main/taux_echange_devise
-Currency exchange,API,Python,tree/main/taux_echange_devise
-Currency exchange,String,Python,tree/main/taux_echange_devise
-Currency exchange,List,Python,tree/main/taux_echange_devise
-Currency exchange,Loop,Python,tree/main/taux_echange_devise
-Currency exchange,Conditions,Python,tree/main/taux_echange_devise
-Weather prediction,API,Python,blob/main/weather/weather_api.py
-Weather prediction,String,Python,blob/main/weather/weather_api.py
-Weather prediction,File,Python,blob/main/weather/weather_api.py
-Weather prediction,JSON,Python,blob/main/weather/weather_api.py
-Weather prediction,Conditions,Python,blob/main/weather/weather_api.py
-Weather prediction,Module,Python,blob/main/weather/weather_api.py
-Mendel genetics,Unitary tests,Python,tree/main/genetique_mendel
-Mendel genetics,List,Python,tree/main/genetique_mendel
-Mendel genetics,Conditions,Python,tree/main/genetique_mendel
-Mendel genetics,String,Python,tree/main/genetique_mendel
-Mendel genetics,Function,Python,tree/main/genetique_mendel
-Mendel genetics,Loop,Python,tree/main/genetique_mendel
-Password manager,File,Python,tree/main/cryptographie
-Password manager,Module,Python,tree/main/cryptographie
-Password manager,Function,Python,tree/main/cryptographie
-Password manager,Loop,Python,tree/main/cryptographie
-Password manager,Conditions,Python,tree/main/cryptographie
-Guess the number,Binary search,Dynamic Programming,tree/main/devine_le_chiffre
+Quizz game,Loop,Python,python/quizz
+Quizz game,Conditions,Python,python/quizz
+Quizz game,Dictionary,Python,python/quizz
+Quizz game,Function,Python,python/quizz
+Quizz game,Module,Python,python/quizz
+Quizz game,String,Python,python/quizz
+Rock / Paper / Scisors,Loop,Python,python/pierre_ciseaux_papier
+Rock / Paper / Scisors,Conditions,Python,python/pierre_ciseaux_papier
+Rock / Paper / Scisors,Dictionary,Python,python/pierre_ciseaux_papier
+Rock / Paper / Scisors,Function,Python,python/pierre_ciseaux_papier
+Rock / Paper / Scisors,Module,Python,python/pierre_ciseaux_papier
+Rock / Paper / Scisors,String,Python,python/pierre_ciseaux_papier
+Rock / Paper / Scisors,List,Python,python/pierre_ciseaux_papier
+Rock / Paper / Scisors,Tuple,Python,python/pierre_ciseaux_papier
+Guess the number,Loop,Python,python/devine_le_chiffre
+Guess the number,Conditions,Python,python/devine_le_chiffre
+Guess the number,Module,Python,python/devine_le_chiffre
+Guess the number,String,Python,python/devine_le_chiffre
+Guess the number,List,Python,python/devine_le_chiffre
+Guess the number,Range,Python,python/devine_le_chiffre
+Currency exchange,Database,Python,python/taux_echange_devise
+Currency exchange,Module,Python,python/taux_echange_devise
+Currency exchange,Function,Python,python/taux_echange_devise
+Currency exchange,API,Python,python/taux_echange_devise
+Currency exchange,String,Python,python/taux_echange_devise
+Currency exchange,List,Python,python/taux_echange_devise
+Currency exchange,Loop,Python,python/taux_echange_devise
+Currency exchange,Conditions,Python,python/taux_echange_devise
+Weather prediction,API,Python,python/weather
+Weather prediction,String,Python,python/weather
+Weather prediction,File,Python,python/weather
+Weather prediction,JSON,Python,python/weather
+Weather prediction,Conditions,Python,python/weather
+Weather prediction,Module,Python,python/weather
+Mendel genetics,Unitary tests,Python,python/genetique_mendel
+Mendel genetics,List,Python,python/genetique_mendel
+Mendel genetics,Conditions,Python,python/genetique_mendel
+Mendel genetics,String,Python,python/genetique_mendel
+Mendel genetics,Function,Python,python/genetique_mendel
+Mendel genetics,Loop,Python,python/genetique_mendel
+Password manager,File,Python,python/cryptographie
+Password manager,Module,Python,python/cryptographie
+Password manager,Function,Python,python/cryptographie
+Password manager,Loop,Python,python/cryptographie
+Password manager,Conditions,Python,python/cryptographie
+Guess the number,Binary search,Dynamic Programming,python/devine_le_chiffre
 Titanic,Classification,Data Science,
 Titanic,Machine Learning,Data Science,
+Titanic,Notebook,Data Science,
+Titanic,Pandas,Data Science,
 Digit recognizer,Classification,Data Science,
 Digit recognizer,Machine Learning,Data Science,
+Digit recognizer,Notebook,Data Science,
+Digit recognizer,Pandas,Data Science,
 Digit recognizer,Computer Vision,Data Science,
 Tweet sentiment,Natural Language Processing,Data Science,
 Tweet sentiment,Classification,Data Science,
 Tweet sentiment,Machine Learning,Data Science,
+Tweet sentiment,Notebook,Data Science,
+Tweet sentiment,Pandas,Data Science,
+Weather prediction,Notebook,Data Science,python/weather
+Weather prediction,Pandas,Data Science,python/weather
+Weather prediction,Visualisation,Data Science,python/weather

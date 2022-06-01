@@ -57,5 +57,6 @@ st.sidebar.header("You can follow me there:")
 st.sidebar.markdown("""
                         * [Codingame](https://www.codingame.com/profile/095afbf7d889e76260103e94e4b29a5c0681142)
                         * [Linkedin](https://www.linkedin.com/in/aur%C3%A9lien-quillet-346102193/)
+                        * [Github](https://github.com/quillaur)
                     """, unsafe_allow_html=True)
 

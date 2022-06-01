@@ -4,6 +4,7 @@ import pandas as pd
 from PIL import Image
 from collections import defaultdict
 import matplotlib.pyplot as plt
+# https://github.com/konstantint/matplotlib-venn
 from matplotlib_venn import venn2, venn2_circles
 import numpy as np
 
@@ -124,7 +125,7 @@ def app():
                     st.subheader(f"""
                                 Links to the {course} activities :
                             """)
-                    github_repo_url = "https://github.com/quillaur/apprendre_python/"
+                    github_repo_url = "https://github.com/quillaur/data_learning/tree/main/"
                     msg = ""
                     df_filtered_activities = df[df["Activity"].isin(selected_activities)]
                     df_filtered_activities = df_filtered_activities[["Activity", "Link"]].drop_duplicates()
