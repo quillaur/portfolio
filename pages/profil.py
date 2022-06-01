@@ -26,11 +26,15 @@ def app():
         st.info("""
                     Molecular biologist by training and data scientist by passion, I bring both these skills together 
                     to analyze your data and build the model you need to unlock the potential of your project. 
-                    So far, I primarily worked on classification problems as well as NLP and image processing projects.
-                    Throughout my learning journey, I also acquired quite a bit of knowledge on dynamic programming using python and sometimes C++. 
-                    Recently, I got to focus on training others through many teaching / mentoring missions. 
+
+                    So far, I primarily worked on classification problems as well as NLP and image processing projects. 
+                    Most recently, I got to focus on training others through many teaching and mentoring missions. 
+                    Throughout my learning journey, I also acquired quite a bit of knowledge on dynamic programming using Python3 and sometimes C++. 
                     
-                    You can find the different courses I teach as well as the projects I have achieved so far by clicking on the different sections of the left panel.
+                    You can find the different courses I teach as well as the projects I have achieved so far 
+                    by clicking on the different sections of the left panel.
+
+                    Thank you very much for your interest in my work.
                 """)
     with col2:
         profil_img =Image.open("images/profile_pict_without_bg_2.png")
