@@ -5,8 +5,7 @@ from datetime import datetime
 # Custom imports
 # Multipage code from : https://github.com/prakharrathi25/data-storyteller 
 from navigation.nav_buttons import NavButtons
-from pages import profil, dashboards
-from pages.courses import courses
+from app_pages import profil, dashboards, courses
 
 st.set_page_config("Porfolio", layout="wide")
 
