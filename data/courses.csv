@@ -62,3 +62,7 @@ Tweet sentiment,Pandas,Data Science,
 Weather prediction,Notebook,Data Science,python/weather
 Weather prediction,Pandas,Data Science,python/weather
 Weather prediction,Visualisation,Data Science,python/weather
+Coke detection,Streamlit,Data Science,data_science/computer_vision/coke_detection
+Coke detection,Computer Vision,Data Science,data_science/computer_vision/coke_detection
+Coke detection,OpenCV,Data Science,data_science/computer_vision/coke_detection
+Coke detection,Object detection,Data Science,data_science/computer_vision/coke_detection
