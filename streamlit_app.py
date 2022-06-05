@@ -24,7 +24,7 @@ st.sidebar.header("Aurélien Quillet ~ Ph.D")
 st.sidebar.info(f"""
             * {age} years old
             * Rouen, France
-            * Data Scientist (remote freelance)
+            * Data Scientist (remote / freelance)
             * email: aurelienquillet@gmail.com
         """)
 

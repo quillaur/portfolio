@@ -24,14 +24,16 @@ def app():
     with col1:
         st.title("Resume")
         st.info("""
-                    Molecular biologist by training and data scientist by passion, I bring both these skills together 
-                    to analyze your data and build the model you need to unlock the potential of your project. 
-
-                    So far, I primarily worked on classification problems as well as NLP and image processing projects. 
-                    Most recently, I got to focus on training others through many teaching and mentoring missions. 
-                    Throughout my learning journey, I also acquired quite a bit of knowledge on dynamic programming using Python3 and sometimes C++. 
+                    Molecular biologist by training and data scientist by passion, my goal is to bring both these skills together 
+                    to analyze your data and build the model you need to unlock the potential of your project.
                     
-                    You can find the different courses I teach as well as the projects I have achieved so far 
+                    Most of my work focuses on training others through teaching and mentoring activities. 
+                    Throughout my learning and teaching journey, I also acquired quite a bit of knowledge 
+                    on dynamic programming using Python3 and sometimes C++. 
+                    If you have a need for a data scientist, I am also proficient at dashbord creation and data modelisation studies 
+                    (classification, NLP, image processing and so on...).
+                    
+                    You can find the different activites I use to teach as well as the projects I have achieved so far 
                     by clicking on the different sections of the left panel.
 
                     Thank you very much for your interest in my work.
