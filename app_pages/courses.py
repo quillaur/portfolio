@@ -74,6 +74,9 @@ def app():
         # schools.thumbnail((500, 300), Image.ANTIALIAS)
         st.image(schools)
     
+    elif course == "Dynamic Programming":
+        st.warning("Coming up soon...")
+    
     else:
         #######################
         ### The other pages ###
