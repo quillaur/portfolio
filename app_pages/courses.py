@@ -103,7 +103,7 @@ def app():
                     tmp_df = df[df["Activity"] == activity]
 
                     total = 0
-                    for concept in concepts:
+                    for concept in wanted_concepts:
                         if any(tmp_df["Concept"] == concept):
                             matched_concepts[concept].append("Yes")
                             total += 1
