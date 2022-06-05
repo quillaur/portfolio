@@ -33,7 +33,7 @@ st.sidebar.info(f"""
 app = NavButtons()
 
 app.add_page("Profil", profil.app)
-app.add_page("Courses", courses.app)
+app.add_page("Teaching Activities", courses.app)
 app.add_page("Dashboards", dashboards.app)
 
 app.run()

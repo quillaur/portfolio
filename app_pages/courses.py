@@ -13,7 +13,7 @@ import numpy as np
 # from utilities import pretty_bar_plot
 
 def app():
-    st.title("Courses")
+    st.title("Teaching Activities")
 
     # Load activities.
     df = pd.read_csv("data/courses.csv", sep=",")
