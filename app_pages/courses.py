@@ -142,7 +142,7 @@ def app():
                 #####################
                 #### The schools ####
                 #####################
-                st.subheader(f"This {course} course is trusted by:")
+                st.subheader(f"They have trusted me with these {course} activities :")
                 schools = Image.open(f"images/{course.lower()}_schools.png")
                 schools.thumbnail((500, 300), Image.ANTIALIAS)
                 st.image(schools)
