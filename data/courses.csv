@@ -55,7 +55,7 @@ Digit recognizer,Notebook,Data Science,data_science/computer_vision/digit_recogn
 Digit recognizer,Pandas,Data Science,data_science/computer_vision/digit_recognizer
 Digit recognizer,SVC,Data Science,data_science/computer_vision/digit_recognizer
 Digit recognizer,Isolation forest,Data Science,data_science/computer_vision/digit_recognizer
-Digit recognizer,Image visualisation,Data Science,data_science/computer_vision/digit_recognizer
+Digit recognizer,Data visualisation,Data Science,data_science/computer_vision/digit_recognizer
 Digit recognizer,Outliers detection,Data Science,data_science/computer_vision/digit_recognizer
 Tweet sentiment,Natural Language Processing,Data Science,
 Tweet sentiment,Classification,Data Science,
@@ -64,7 +64,7 @@ Tweet sentiment,Notebook,Data Science,
 Tweet sentiment,Pandas,Data Science,
 Weather prediction,Notebook,Data Science,python/weather
 Weather prediction,Pandas,Data Science,python/weather
-Weather prediction,Visualisation,Data Science,python/weather
+Weather prediction,Data visualisation,Data Science,python/weather
 Coke detection,Streamlit,Data Science,data_science/computer_vision/coke_detection
 Coke detection,Computer Vision,Data Science,data_science/computer_vision/coke_detection
 Coke detection,OpenCV,Data Science,data_science/computer_vision/coke_detection
