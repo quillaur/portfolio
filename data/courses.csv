@@ -49,11 +49,14 @@ Titanic,Classification,Data Science,
 Titanic,Machine Learning,Data Science,
 Titanic,Notebook,Data Science,
 Titanic,Pandas,Data Science,
-Digit recognizer,Classification,Data Science,
-Digit recognizer,Machine Learning,Data Science,
-Digit recognizer,Notebook,Data Science,
-Digit recognizer,Pandas,Data Science,
-Digit recognizer,Computer Vision,Data Science,
+Digit recognizer,Classification,Data Science,data_science/computer_vision/digit_recognizer
+Digit recognizer,Machine Learning,Data Science,data_science/computer_vision/digit_recognizer
+Digit recognizer,Notebook,Data Science,data_science/computer_vision/digit_recognizer
+Digit recognizer,Pandas,Data Science,data_science/computer_vision/digit_recognizer
+Digit recognizer,SVC,Data Science,data_science/computer_vision/digit_recognizer
+Digit recognizer,Isolation forest,Data Science,data_science/computer_vision/digit_recognizer
+Digit recognizer,Image visualisation,Data Science,data_science/computer_vision/digit_recognizer
+Digit recognizer,Outliers detection,Data Science,data_science/computer_vision/digit_recognizer
 Tweet sentiment,Natural Language Processing,Data Science,
 Tweet sentiment,Classification,Data Science,
 Tweet sentiment,Machine Learning,Data Science,
